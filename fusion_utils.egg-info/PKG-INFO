@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fusion_utils
+Version: 0.11
+Summary: A utility package Fusion 2.0
+Home-page: https://github.com/dylandoyle11/fusion_utils
+Author: Dylan D
+Author-email: dylan.doyle@jdpa.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: google-cloud-bigquery
+
+FUNCTIONS FOR AIC
