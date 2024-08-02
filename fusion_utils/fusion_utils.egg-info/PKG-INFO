@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: fusion_utils
-Version: 0.12.2
+Version: 0.3.4
 Summary: A utility package Fusion 2.0
 Home-page: https://github.com/dylandoyle11/fusion_utils
 Author: Dylan D
@@ -12,6 +12,5 @@ Description-Content-Type: text/markdown
 Requires-Dist: pandas
 Requires-Dist: google-cloud-bigquery
 Requires-Dist: numpy
-Requires-Dist: slack_sdk
 
 FUNCTIONS FOR AIC

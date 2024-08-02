@@ -1,8 +1,14 @@
 README.md
 setup.py
+fusion_utils/Errors.py
+fusion_utils/Pipeline.py
+fusion_utils/Task.py
 fusion_utils/__init__.py
 fusion_utils/errors.py
+fusion_utils/fusion_logger.py
 fusion_utils/pipeline.py
+fusion_utils/slackbot.py
+fusion_utils/task.py
 fusion_utils.egg-info/PKG-INFO
 fusion_utils.egg-info/SOURCES.txt
 fusion_utils.egg-info/dependency_links.txt

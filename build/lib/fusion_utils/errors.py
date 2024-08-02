@@ -25,3 +25,9 @@ class TableMappingError(PipelineError):
   def __init__(self, message="Table Mapping is not set. Set using set_table_map(dataset, table)'"):
         self.message = message
         super().__init__(self.message)
+
+
+class TaskError(PipelineError):
+  def __init__(self, message):
+        self.message = message
+        super().__init__(self.message)
