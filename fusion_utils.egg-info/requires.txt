@@ -1,0 +1,4 @@
+pandas
+google-cloud-bigquery
+numpy
+slack_sdk

@@ -38,8 +38,15 @@ class Task:
     def get_condition(self):
         """Convert the condition string to a lambda function."""
         try:
-            # Ensure the condition string is valid Python syntax
-            return eval(f"lambda df: {self.condition_str}")
+            # Convert the string into a lambda function
+            condition_func = eval(f"lambda df: {self.condition_str}")
+            return condition_func
+        
         except SyntaxError as e:
-            raise (f"Invalid condition string: {self.condition_str}. Error: {e}")
-        return None
+            raise ValueError(f"Invalid condition string: {self.condition_str}. SyntaxError: {e}")
+        
+        except TypeError as e:
+            raise ValueError(f"The condition is improperly formatted or invalid: {self.condition_str}. TypeError: {e}")
+        
+        except Exception as e:
+            raise ValueError(f"An error occurred while evaluating the condition: {self.condition_str}. Error: {e}")

@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='fusion_utils',
-    version='0.12.2',
+    version='0.9',
     install_requires=[
         'pandas',
         'google-cloud-bigquery',
