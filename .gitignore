@@ -1,6 +1,14 @@
+# Ignore build artifacts
 dist/
 build/
-.egg-info
+*.egg-info
+
+# Ignore macOS specific files
 .DS_Store
-.gitignore
+
+# Ignore specific directories
+.gitignore/
+
+# Ignore files in fusion_utils directory
 fusion_utils/.DS_Store
+
