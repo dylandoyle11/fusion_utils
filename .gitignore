@@ -4,7 +4,7 @@ build/
 *.egg-info
 
 # Ignore macOS specific files
-.DS_Store
+.DS_Store/
 
 # Ignore specific directories
 .gitignore/
